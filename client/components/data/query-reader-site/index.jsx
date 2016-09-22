@@ -8,7 +8,7 @@ import { bindActionCreators } from 'redux';
 /**
  * Internal dependencies
  */
-import { shouldSiteBeFetched } from 'state/reader/sites/selectors';
+import { shouldSiteBeFetched } from 'state/reader/sites/selectors/site';
 import { requestSite } from 'state/reader/sites/actions';
 
 class QueryReaderSite extends Component {

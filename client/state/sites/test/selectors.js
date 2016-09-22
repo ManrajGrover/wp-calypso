@@ -27,7 +27,7 @@ import {
 	getSitePlan,
 	isCurrentSitePlan,
 	isCurrentPlanPaid
-} from '../selectors';
+} from '../selectors/site';
 
 describe( 'selectors', () => {
 	beforeEach( () => {

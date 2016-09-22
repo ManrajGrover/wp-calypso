@@ -11,7 +11,7 @@ import { localize } from 'i18n-calypso';
  * Internal Dependencies
  */
 import { getPost } from 'state/reader/posts/selectors';
-import { getSite } from 'state/reader/sites/selectors';
+import { getSite } from 'state/reader/sites/selectors/site';
 import Card from 'components/card/compact';
 import Gravatar from 'components/gravatar';
 import FollowButton from 'reader/follow-button';
